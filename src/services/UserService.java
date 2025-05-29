@@ -1,3 +1,8 @@
+package services;
+
+import repository.UserRepository;
+import models.UserModel;
+
 import java.util.List;
 
 public class UserService implements IUserService<UserModel> {

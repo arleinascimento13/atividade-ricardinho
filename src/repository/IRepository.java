@@ -1,3 +1,5 @@
+package repository;
+
 import java.util.ArrayList;
 
 public interface IRepository<T> {

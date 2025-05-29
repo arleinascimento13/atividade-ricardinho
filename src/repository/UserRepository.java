@@ -1,3 +1,8 @@
+package repository;
+
+import models.StatusUser;
+import models.UserModel;
+
 import java.util.ArrayList;
 
 public class UserRepository implements IRepository<UserModel> {

@@ -1,3 +1,6 @@
+import models.UserModel;
+import services.UserService;
+
 import java.util.Scanner;
 
 public class Main {
@@ -96,18 +99,18 @@ public class Main {
 //        userService.createUser("Bob", "bob@example.com");
 //
 //        System.out.println("Todos usuários:");
-//        for (UserModel user : userService.getAllUsers()) {
+//        for (models.UserModel user : userService.getAllUsers()) {
 //            System.out.println(user.getId() + " - " + user.getName());
 //        }
 //
-//        UserModel busca = userService.getUserById();
+//        models.UserModel busca = userService.getUserById();
 //        System.out.println("Busca usuário: " + busca.getName() + ", " + busca.getEmail());
 //
 //        userService.deleteUser(user2.getId());
 //        System.out.println("Usuário deletado.");
 //
 //        System.out.println("Lista final:");
-//        for (UserModel user : userService.getAllUsers()) {
+//        for (models.UserModel user : userService.getAllUsers()) {
 //            System.out.println(user.getId() + " - " + user.getName());
 //        }
 //    }
